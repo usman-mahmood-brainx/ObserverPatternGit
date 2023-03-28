@@ -13,8 +13,10 @@ public class Main {
 		
 		// Changes from my branch
 		Subscriber subscriber3 = new Subscriber("Ali");
-		Subscriber subscriber4 = new Subscriber("Usman");
+		Subscriber subscriber4 = new Subscriber("Kamran");
+		Subscriber subscriber5 = new Subscriber("Aliza");
 		myChannel.registerObserver(subscriber3);
 		myChannel.registerObserver(subscriber4);
+		myChannel.registerObserver(subscriber5);
     }
 }
