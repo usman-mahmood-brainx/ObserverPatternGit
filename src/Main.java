@@ -10,5 +10,11 @@ public class Main {
 
 		// Later on, when a new video is uploaded
 		myChannel.uploadVideo("New Video Title");
+		
+		// Changes from my branch
+		Subscriber subscriber3 = new Subscriber("Hamza");
+		Subscriber subscriber4 = new Subscriber("Usman");
+		myChannel.registerObserver(subscriber3);
+		myChannel.registerObserver(subscriber4);
     }
 }
