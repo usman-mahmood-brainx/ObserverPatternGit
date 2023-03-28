@@ -12,9 +12,12 @@ public class Main {
 		myChannel.uploadVideo("New Video Title");
 		
 		// Changes from my branch
+    //Changes after merge
 		Subscriber subscriber3 = new Subscriber("Ali");
-		Subscriber subscriber4 = new Subscriber("Faizan");
+		Subscriber subscriber4 = new Subscriber("Kamran");
+		Subscriber subscriber5 = new Subscriber("Aliza");
 		myChannel.registerObserver(subscriber3);
 		myChannel.registerObserver(subscriber4);
+		myChannel.registerObserver(subscriber5);
     }
 }
